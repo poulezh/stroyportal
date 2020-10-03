@@ -1,0 +1,37 @@
+@mixin font-block {
+    color: #708598;
+    font: {
+        size: 12px;
+        family:$fonts;
+        weight: 400;
+    }
+}
+@mixin font-block2 {
+    color: #050F19;
+    font: {
+        size: 14px;
+        family:$fonts;
+        weight: 600;
+        style:normal;
+        line-height: 20px;
+    }
+}
+
+@mixin span-burger {
+    position: absolute;
+    width: 17px;
+    height: 2px;
+    border: radius 2px;
+    background: #222222;
+    
+}
+@mixin flexPos {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin flexPos2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    
+}

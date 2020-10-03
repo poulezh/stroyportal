@@ -1,0 +1,41 @@
+@import "vars";
+@import "mixin";
+@import "header";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+html,body{
+  height: 100%;
+}
+button{
+  cursor: pointer;
+}
+h1, h2, h3, p, span{
+  margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+
+}
+
+.container{
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
